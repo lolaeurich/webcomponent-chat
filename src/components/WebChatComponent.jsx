@@ -20,8 +20,6 @@ const CustomTypingIndicator = () => {
   );
 };
 
-const API_KEY = "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";
-
 const WebChatComponent = ({handleWeatherRequest}) => {
   const [typing, setTyping] = useState(false);
   const [messages, setMessages] = useState([
