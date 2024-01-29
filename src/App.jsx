@@ -1,11 +1,13 @@
 import React from 'react';
 import WebChatComponent from "./components/WebChatComponent.jsx";
+import Chat from './components/chat.jsx';
 
 function App() {
 
   return (
     <div>
-      {/* <WebChatComponent handleWeatherRequest={handleWeatherRequest} /> */}
+      {/* <Chat/> */}
+      <WebChatComponent />
     </div>
   );
 }
